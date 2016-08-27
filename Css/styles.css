@@ -1,6 +1,6 @@
 
 *{
-	box-sizing: border-box;
+	box-sizing:border-box;
 	margin: 0;
 	padding: 0;
 	
@@ -15,47 +15,31 @@ h1{
 body {
 	background-color: #F5F5DC
 
-	font-family: "Segoe UI", Calibri, Tahoma;
+	font-family: "Segoe UI",  Tahoma;
+	font-size :24px;
 }
-
-.row{
-	width: 100%;
-}
-
-.label{
-	background-color: red;
-	
-	float: right;
-	margin-top: -2px;
-	margin-right: -2px;
-	margin-bottom: 5px;
-	top:0px;
-	right:0px;
-	width: 145px;
-text-align: center;
-border: 2px solid black;
-font-weight: 800;
-}
-
-
 
 .text{
 
 	background-color: grey;
-	clear: right;
-	padding: 5px;
+		padding: 5px;
+		clear:right;
 
 }
 
-container-fluid{
-	width: 100%;
-}
-
-div{
+.label{
+	background-color: red;
 	position: relative;
-	background-color: grey;
-	border: 2px solid black;
-	margin: 10px;
+	float:right;
+	top:0px;
+	right:0px;
+	width: 145px;
+	border: 1px solid black;
+	margin-top: -1px;
+	margin-right: -1px;
+	text-align: center;
+	font-weight: 800;
+
 
 }
 
@@ -64,9 +48,9 @@ div{
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     
     background-color: grey;
-	border: 2px solid black;
-	margin: 10px;
-
+	border: 1px solid black;
+	margin-left: 5px;
+    float:left;
   }
 
   .col-lg-1 {
@@ -79,7 +63,7 @@ div{
     width: 25%;
   }
   .col-lg-4 {
-    width: 33.33%;
+    width: 32%;
   
   }
   .col-lg-5 {
@@ -113,8 +97,9 @@ div{
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
        
         background-color: grey;
-	border: 2px solid black;
-	margin: 10px;
+	border: 1px solid black;
+	margin: 5px;
+	float: left;
   }
   .col-md-1 {
     width: 8.33%;
@@ -126,13 +111,13 @@ div{
     width: 25%;
   }
   .col-md-4 {
-    width: 33.33%;
+    width: 33%;
   }
   .col-md-5 {
     width: 41.66%;
   }
   .col-md-6 {
-    width: 50%;
+    width: 48%;
     
   }
   .col-md-7 {
@@ -151,7 +136,7 @@ div{
     width: 91.66%;
   }
   .col-md-12 {
-    width: 100%;
+    width: 97%;
   }
 }
 
@@ -160,8 +145,9 @@ div{
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
        
         background-color: grey;
-	border: 2px solid black;
+	border: 1px solid black;
 	margin: 10px;
+	float:left;
   }
   .col-sm-1 {
     width: 8.33%;
